@@ -5,6 +5,7 @@ import com.example.springnotesspecification.repository.NoteRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
+import org.springframework.data.jpa.domain.Specification;
 import org.springframework.stereotype.Service;
 
 @Service
@@ -14,5 +15,9 @@ public class NoteService {
 
     public Page<NoteEntity> findAll(Pageable pageable) {
         return repository.findAll(pageable);
+    }
+
+    public Page<NoteEntity> findAll(Specification<NoteEntity> specification, Pageable pageable) {
+        return repository.findAll(specification, pageable);
     }
 }

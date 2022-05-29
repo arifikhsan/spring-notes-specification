@@ -11,8 +11,8 @@ public class NoteSeeder {
     private final NoteRepository repository;
 
     public void seed() {
-        repository.save(new NoteEntity("Note 1", "This is note 1"));
-        repository.save(new NoteEntity("Note 2", "This is note 2"));
-        repository.save(new NoteEntity("Note 3", "This is note 3"));
+        repository.save(new NoteEntity("Note 1", "arif", 1));
+        repository.save(new NoteEntity("Note 2", "ikhsan", 2));
+        repository.save(new NoteEntity("Note 3", "udin", 2));
     }
 }

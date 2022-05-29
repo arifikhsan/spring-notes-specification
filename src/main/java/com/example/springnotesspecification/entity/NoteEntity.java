@@ -18,4 +18,6 @@ public class NoteEntity extends BaseEntity {
 
     @Column(columnDefinition = "TEXT")
     private String content;
+
+    private Integer priority;
 }
