@@ -1,7 +1,7 @@
-package com.example.springjavanotestemplate.database;
+package com.example.springnotesspecification.database;
 
-import com.example.springjavanotestemplate.entity.NoteEntity;
-import com.example.springjavanotestemplate.repository.NoteRepository;
+import com.example.springnotesspecification.entity.NoteEntity;
+import com.example.springnotesspecification.repository.NoteRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Configuration;
 

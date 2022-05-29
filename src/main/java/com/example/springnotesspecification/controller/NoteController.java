@@ -1,7 +1,7 @@
-package com.example.springjavanotestemplate.controller;
+package com.example.springnotesspecification.controller;
 
-import com.example.springjavanotestemplate.entity.NoteEntity;
-import com.example.springjavanotestemplate.service.NoteService;
+import com.example.springnotesspecification.entity.NoteEntity;
+import com.example.springnotesspecification.service.NoteService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

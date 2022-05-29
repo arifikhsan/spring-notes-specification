@@ -1,14 +1,13 @@
-package com.example.springjavanotestemplate;
+package com.example.springnotesspecification;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SuppressWarnings("resource")
 @SpringBootApplication
-public class SpringJavaNotesTemplateApplication {
+public class SpringNotesSpecificationApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringJavaNotesTemplateApplication.class, args);
+        SpringApplication.run(SpringNotesSpecificationApplication.class, args);
     }
-
 }

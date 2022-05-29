@@ -1,4 +1,4 @@
-package com.example.springjavanotestemplate.entity;
+package com.example.springnotesspecification.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
